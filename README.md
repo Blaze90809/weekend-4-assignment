@@ -8,10 +8,10 @@ When you're done, host this on Heroku!
 
 ## Technologies
 
-Node/Express - to serve your files
-Angular - client-side logic
-CSS - flex your style muscles
-Heroku - to make your site available to the world
+- Node/Express - to serve your files
+- Angular - client-side logic
+- CSS - flex your style muscles
+- Heroku - to make your site available to the world
 
 ## Steps:
 - [x] Create files needed for base mode.

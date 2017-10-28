@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>Document</title>
+
+    <script src="vendors/angular.min.js"></script>
+    <script src="scripts/client.js"></script>
+</head>
+<body ng-app="lifeStory">
+   <h1>The Gallery of My Life</h1>
+    <div ng-controller="lifeController as life">
+           
+        Is angular working? {{4 === 4}}
+      
+        <img ng-repeat="photos in life.photosIn" ng-hide="false" ng-src="{{photos.location}}" alt="Description" />
+        
+
+    </div>
+</body>
+</html>
