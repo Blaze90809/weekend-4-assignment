@@ -1,9 +1,34 @@
 img {
     height: auto;
-    width: 300px;
+    width: auto;
     display: block;
     visibility: visible;
 }
 body {
     color: red;
+}
+
+#photoGroup{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+#photoPods{
+    margin: 10px;
+    background-color: blue;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: auto;
+}
+button{
+    margin-top: 10px;
+}
+
+#container{
+    background-color: yellow;
 }
