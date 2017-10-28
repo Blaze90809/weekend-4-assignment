@@ -13,6 +13,9 @@ var snowboard = {name: 'Wild', location: 'https://scontent.ffcm1-2.fna.fbcdn.net
 
 life.photosIn = [couple, ski, snowboard, outdoors, twinsgame, snow];
 
+life.increment = function(){
+    life.item += 1;
+}
 
 console.log(life.photosIn);
 // function getPhotos(){

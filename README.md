@@ -18,8 +18,8 @@ When you're done, host this on Heroku!
 - [x] Place at least six pictures on the page.
 - [x] Append photos to the DOM.
 - [x] Description of the photos on-click.
-- [ ] Write thumbs up buttons.
-- [ ] On click, synopsis should appear.
+- [x] Write thumbs up buttons.
+- [x] On click, synopsis should appear.
 - [ ] Style with CSS/Boostrap.
 ## Hard mode:
 - [ ] More bootstrap
