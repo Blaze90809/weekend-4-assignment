@@ -1,6 +1,9 @@
-.img {
-    height: 100px;
-    width: 100px;
+img {
+    height: auto;
+    width: 300px;
     display: block;
     visibility: visible;
+}
+body {
+    color: red;
 }

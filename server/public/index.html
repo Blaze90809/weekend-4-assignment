@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <title>Gallery of Life</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <title>Document</title>
-
     <script src="vendors/angular.min.js"></script>
     <script src="scripts/client.js"></script>
 </head>
@@ -15,10 +15,10 @@
     <div ng-controller="lifeController as life">
            
         Is angular working? {{4 === 4}}
-      
-        <img ng-repeat="photos in life.photosIn" ng-hide="false" ng-src="{{photos.location}}" alt="Description" />
-        
-
+      <div class="photoShow" ng-repeat="photos in life.photosIn">
+        <img ng-click="showDiv = !showDiv" ng-src="{{photos.location}}" alt="Description" />
+        <div class="photoDescription" ng-show="showDiv" > {{photos.description}} </div>
+    </div>
     </div>
 </body>
 </html>

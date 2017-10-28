@@ -15,8 +15,9 @@ When you're done, host this on Heroku!
 
 ## Steps:
 - [x] Create files needed for base mode.
-- [ ] Place at least six pictures inside server.
-- [ ] Append photos to the DOM.
+- [x] Place at least six pictures on the page.
+- [x] Append photos to the DOM.
+- [x] Description of the photos on-click.
 - [ ] Write thumbs up buttons.
 - [ ] On click, synopsis should appear.
 - [ ] Style with CSS/Boostrap.
