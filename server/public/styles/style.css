@@ -4,9 +4,7 @@ img {
     display: block;
     visibility: visible;
 }
-body {
-    color: red;
-}
+
 
 #photoGroup{
     padding-right: 15px;
@@ -18,17 +16,35 @@ body {
 
 #photoPods{
     margin: 10px;
-    background-color: blue;
+    background-color: #8CBEB2;
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
     height: auto;
+    color: white;
 }
 button{
     margin-top: 10px;
 }
 
 #container{
-    background-color: yellow;
+    background-color: #F2EBBF;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.jumbotron{
+    background-color: #F06060;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    height: 200px
+}
+
+body{
+    float: right;
+    font-family: 'Droid Serif', serif;
+}
+h2{
+    text-align: right;
 }
