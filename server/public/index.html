@@ -25,7 +25,12 @@
                     <img class="img-responsive" ng-click="showDiv = !showDiv; clickCount = clickCount + 1" ng-init="clickCount=0" ng-src="{{photos.location}}" alt="Description" />
                     <button ng-click="count = count + 1" ng-init="count=0" class="material-icons , btn">thumb_up</button>
                     <span class="Likes">Likes: {{count}}</span><br>
-                    <span class="clickLikes">Click Count: {{clickCount}}</span>
+                    <span class="clickLikes">Click Count: {{clickCount}}</span><br>
+                    <div class="input-group">
+                            <span class="input-group-addon btn" ng-click="leaveComment(comment)">Comment</span>
+                            <input type="text" class="form-control" name="comment" placeholder="Leave a comment">
+                            
+                    </div>
                     <div class="photoDescription" ng-show="showDiv">
                         <p class="description"> {{photos.description}} </p>
                     </div>

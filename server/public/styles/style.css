@@ -72,3 +72,9 @@ h1 {
     font-family: 'Indie Flower', cursive;
     text-align: center;
 }
+.submitComment{
+    color: rgba(0, 0, 0, 0.336);
+}
+input{
+    color: black;
+}
