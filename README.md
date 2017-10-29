@@ -20,7 +20,7 @@ When you're done, host this on Heroku!
 - [x] Description of the photos on-click.
 - [x] Write thumbs up buttons.
 - [x] On click, synopsis should appear.
-- [ ] Style with CSS/Boostrap.
+- [x] Style with CSS/Boostrap.
 ## Hard mode:
 - [ ] More bootstrap
 - [ ] Counter to keep track of how many clicks

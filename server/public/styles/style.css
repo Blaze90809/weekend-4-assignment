@@ -12,6 +12,8 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     height: 100%;
+    float: none;
+    margin: 0 auto;
 }
 
 #photoPods{
@@ -32,13 +34,16 @@ button{
     background-color: #F2EBBF;
     padding-right: 0px;
     padding-left: 0px;
+    width: 100%;
+    height: 100%;
 }
 .jumbotron{
     background-color: #F06060;
     color: white;
     width: 100%;
     padding: 20px;
-    height: 200px
+    height: 300px;
+    background: url('https://static.pexels.com/photos/60838/pexels-photo-60838.png') no-repeat center center;
 }
 
 body{
@@ -46,5 +51,20 @@ body{
     font-family: 'Droid Serif', serif;
 }
 h2{
-    text-align: right;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.Likes{
+    font-size: 20px;
+}
+.description{
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
 }
