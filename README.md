@@ -22,8 +22,8 @@ When you're done, host this on Heroku!
 - [x] On click, synopsis should appear.
 - [x] Style with CSS/Boostrap.
 ## Hard mode:
-- [ ] More bootstrap
-- [ ] Counter to keep track of how many clicks
+- [x] More bootstrap
+- [x] Counter to keep track of how many clicks
 ## Pro mode:
 - [ ] Create a form that will take comments for each photo. Display comments when button is clicked.
-- [ ] Create routes for new images, comments, vew count and likes.
+- [ ] Create routes for new images, comments, view count and likes.

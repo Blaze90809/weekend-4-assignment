@@ -63,6 +63,10 @@ h1 {
 .Likes{
     font-size: 20px;
 }
+.clickLikes{
+    font-size: 20px;
+    text-align: right;
+}
 .description{
     font-size: 30px;
     font-family: 'Indie Flower', cursive;

@@ -13,8 +13,14 @@ var snowboard = {name: 'Wild', location: 'https://scontent.ffcm1-2.fna.fbcdn.net
 //Object to send.
 life.photosIn = [couple, ski, snowboard, outdoors, twinsgame, snow];
 //Function to count likes.
-life.increment = function(){
-    life.item += 1;
+
+
+life.photoIncrment = function(){
+    life.photoClicks += 1;
+}
+
+life.views = function(){
+
 }
 
 console.log(life.photosIn);
