@@ -12,7 +12,6 @@ life.fall = {name: 'Fall', location: '../images/fall.jpg', description: 'A beaut
 life.wild = {name: 'Wild', location: '../images/wild.jpg', description: 'A fun day to watch the Wild.'}
 //Object to send.
 life.photosIn = [life.couple, life.ski, life.mercury, life.twinsgame, life.fall, life.wild];
-//Function to count likes.
 
 
 
