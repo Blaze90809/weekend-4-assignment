@@ -23,10 +23,6 @@ life.leaveComment = function(photos){
     life.commentToDom = comment;
     console.log(life.commentToDom);
 }
-// life.pushObject = function(name, sendData){
-
-// }
 
 
-console.log(life.photosIn);
 });
