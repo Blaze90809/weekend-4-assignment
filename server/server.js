@@ -16,7 +16,6 @@ fall = {name: 'Fall', location: '../images/fall.jpg', description: 'A beautiful 
 wild = {name: 'Wild', location: '../images/wild.jpg', description: 'A fun day to watch the Wild.'}]
 
 app.get('/pictures', function(req, res){
-    console.log('message received')
     res.send(pictures)
 })
 
